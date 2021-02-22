@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xcalibur.NativeMethods", "NativeMethods\Xcalibur.NativeMethods.csproj", "{A04CCA1B-6270-494D-A757-7EB2BCC46A7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xcalibur.NativeMethods.Extensions", "Extensions\Xcalibur.NativeMethods.Extensions.csproj", "{345A621E-4A83-4283-AD0B-BBBFFD2814AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{94EB341F-3C83-4B04-B020-1176B8CAF4B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A04CCA1B-6270-494D-A757-7EB2BCC46A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A04CCA1B-6270-494D-A757-7EB2BCC46A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A04CCA1B-6270-494D-A757-7EB2BCC46A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A04CCA1B-6270-494D-A757-7EB2BCC46A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{345A621E-4A83-4283-AD0B-BBBFFD2814AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345A621E-4A83-4283-AD0B-BBBFFD2814AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345A621E-4A83-4283-AD0B-BBBFFD2814AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345A621E-4A83-4283-AD0B-BBBFFD2814AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94EB341F-3C83-4B04-B020-1176B8CAF4B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94EB341F-3C83-4B04-B020-1176B8CAF4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94EB341F-3C83-4B04-B020-1176B8CAF4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94EB341F-3C83-4B04-B020-1176B8CAF4B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://phoenix:8080/tfs/defaultcollection
+		SccProjectUniqueName0 = NativeMethods\\Xcalibur.NativeMethods.csproj
+		SccProjectName0 = NativeMethods
+		SccAuxPath0 = http://phoenix:8080/tfs/defaultcollection
+		SccLocalPath0 = NativeMethods
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A04CCA1B-6270-494D-A757-7EB2BCC46A7F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Xcalibur.NativeMethods</RootNamespace>
+    <AssemblyName>Xcalibur.NativeMethods</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Monitors\MonitorArea.cs" />
+    <Compile Include="Monitors\MonitorHandle.cs" />
+    <Compile Include="Monitors\MONITORINFO.cs" />
+    <Compile Include="Monitors\MonitorPostion.cs" />
+    <Compile Include="Monitors\RECT.cs" />
+    <Compile Include="Processes\ProcessPriority.cs" />
+    <Compile Include="Processes\PROCESS_INFORMATION.cs" />
+    <Compile Include="Processes\STARTUPINFO.cs" />
+    <Compile Include="Security\SECURITY_ATTRIBUTES.cs" />
+    <Compile Include="Security\SECURITY_IMPERSONATION_LEVEL.cs" />
+    <Compile Include="Security\TOKEN_TYPE.cs" />
+    <Compile Include="Windows\ConsoleState.cs" />
+    <Compile Include="Events\EventHelper.cs" />
+    <Compile Include="Events\EventHookTypes.cs" />
+    <Compile Include="Events\KBLLHOOKSTRUCT.cs" />
+    <Compile Include="Events\MSLLHOOKSTRUCT.cs" />
+    <Compile Include="Events\CWPSTRUCT.cs" />
+    <Compile Include="Events\MSG.cs" />
+    <Compile Include="Events\POINT.cs" />
+    <Compile Include="Windows\FlashWindow.cs" />
+    <Compile Include="Windows\FLASHWINFO.cs" />
+    <Compile Include="Windows\GetAncestor.cs" />
+    <Compile Include="Windows\LockSetForeground.cs" />
+    <Compile Include="Menus\MENUITEMINFO.cs" />
+    <Compile Include="Menus\MenuHelper.cs" />
+    <Compile Include="Monitors\MonitorHelper.cs" />
+    <Compile Include="Processes\ProcessHelper.cs" />
+    <Compile Include="WaitTimer.cs" />
+    <Compile Include="Windows\WindowHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Windows\WindowsPosition.cs" />
+    <Compile Include="Windows\WindowZOrder.cs" />
+    <Compile Include="Windows\WindowState.cs" />
+    <Compile Include="MessageConstants.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

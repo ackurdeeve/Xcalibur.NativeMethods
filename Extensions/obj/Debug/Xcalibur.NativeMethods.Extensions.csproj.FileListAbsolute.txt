@@ -1,0 +1,9 @@
+J:\Code\C#\xcaliburnativemethods\sourceCode\Extensions\bin\Debug\Xcalibur.NativeMethods.Extensions.dll
+J:\Code\C#\xcaliburnativemethods\sourceCode\Extensions\bin\Debug\Xcalibur.NativeMethods.Extensions.pdb
+J:\Code\C#\xcaliburnativemethods\sourceCode\Extensions\bin\Debug\Xcalibur.NativeMethods.dll
+J:\Code\C#\xcaliburnativemethods\sourceCode\Extensions\bin\Debug\Xcalibur.NativeMethods.pdb
+J:\Code\C#\xcaliburnativemethods\sourceCode\Extensions\obj\Debug\Xcalibur.NativeMethods.Extensions.csprojAssemblyReference.cache
+J:\Code\C#\xcaliburnativemethods\sourceCode\Extensions\obj\Debug\Xcalibur.NativeMethods.Extensions.csproj.CoreCompileInputs.cache
+J:\Code\C#\xcaliburnativemethods\sourceCode\Extensions\obj\Debug\Xcalibur.NativeMethods.Extensions.csproj.CopyComplete
+J:\Code\C#\xcaliburnativemethods\sourceCode\Extensions\obj\Debug\Xcalibur.NativeMethods.Extensions.dll
+J:\Code\C#\xcaliburnativemethods\sourceCode\Extensions\obj\Debug\Xcalibur.NativeMethods.Extensions.pdb
